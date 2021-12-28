@@ -7,7 +7,7 @@ COPY . /
 
 RUN npm install --production
 
-COPY . .
+#COPY . .
 
 CMD [ "node", "app.js" ]
 
